@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
-import qualityService from "../services/qaulity.service";
 import isOutdated from "../utils/isOutdated";
+import qualityService from "./../services/quality.service";
 
 const qualitiesSlice = createSlice({
     name: "qualities",
